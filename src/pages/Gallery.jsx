@@ -8,7 +8,7 @@ import { fetchImages } from '../services/image-api';
 const Gallery = () => {
   const images = useSelector(selectImages);
   const dispatch = useDispatch();
-  const location = useLocation();
+  const location = useLocation(); // передаємо цю локацію в модалку
 
   useEffect(() => {
     const getImages = async () => {
@@ -35,3 +35,5 @@ const Gallery = () => {
   );
 };
 export default Gallery;
+
+// переправлятися буде на модалку і передаємо обєкт локації

@@ -12,3 +12,8 @@ export const App = () => {
 - image array is stored in redux
 - open modal in one place -> close modal-> return back to current gallery
 */
+
+// npm i react-router-dom
+// npm react-redux
+//npm install @ redux js/toolkit
+// npm i axios

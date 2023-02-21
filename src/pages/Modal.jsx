@@ -9,7 +9,8 @@ const Modal = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const navigate = useNavigate();
-  const { img, from } = location.state;
+  const { img, from } =
+    location.state; /*отримуємо локацію звідки ми прийшли (з гаререї) */
 
   const handleClick = () => {
     switch (from.pathname) {
